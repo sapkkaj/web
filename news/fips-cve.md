@@ -11,14 +11,16 @@ relevance to it:
 
 **CVE ID** | **Fixed** | **FIPS?** | **Notes**
 ----- | --: | :-: | :---------------
+[CVE-2024-0727] | 3.0.13<br>3.1.5<br>3.2.1 | no |
 [CVE-2023-6237] | 3.0.13<br>3.1.5<br>3.2.1 | **yes** | EVP_PKEY_public_check() can take a long time
-[CVE-2023-6129] | 3.0.13<br>3.1.5<br>3.2.1 | no | 3.0.13, 3.1.5 and 3.2.1 are not released yet
-[CVE-2023-5678] | 3.0.13<br>3.1.5 | no | 3.0.13 and 3.1.5 are not released yet
+[CVE-2023-6129] | 3.0.13<br>3.1.5<br>3.2.1 | no |
+[CVE-2023-5678] | 3.0.13<br>3.1.5 | no |
 [CVE-2023-5363] | 3.0.12<br>3.1.4 | no |
 [CVE-2023-4807] | 3.0.11<br>3.1.3 | no |
 [CVE-2023-3817] | 3.0.10<br>3.1.2 | no |
 [CVE-2023-3446] | 3.0.10<br>3.1.2 | no |
 [CVE-2023-2975] | 3.0.10<br>3.1.2 | no |
+| | | | **Release of 3.0.9 FIPS provider**
 [CVE-2023-2650] | 3.0.9<br>3.1.1 | no |
 [CVE-2023-1255] | 3.0.9<br>3.1.1 | **yes** | Possible denial of service on Arm 64 (aarch64) using AES XTS mode
 [CVE-2023-0466] | 3.0.9<br>3.1.1 | no |
@@ -49,6 +51,7 @@ relevance to it:
 [CVE-2021-4044] | 3.0.1 | no |
 | | | | **Release of 3.0.0 FIPS provider**
 
+[CVE-2024-0727]: /news/vulnerabilities.html#CVE-2024-0727
 [CVE-2023-6237]: /news/vulnerabilities.html#CVE-2023-6237
 [CVE-2023-6129]: /news/vulnerabilities.html#CVE-2023-6129
 [CVE-2023-5678]: /news/vulnerabilities.html#CVE-2023-5678
